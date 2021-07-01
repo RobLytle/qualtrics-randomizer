@@ -12,9 +12,8 @@ write_no_rep <- function(df, path){
 							 			 ".csv"))
 	}
 	
-	print(paste0("Wrote ", nrow(df), " files with ", nrow(df) - 1, " rows each"))
+	print(paste0("Wrote ", nrow(df), " files with ", nrow(df) - 1, " rows each in ", path))
 	
 }
 
-write_no_rep(test_df, "data/names-test/func-test/")
 
