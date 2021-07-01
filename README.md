@@ -9,3 +9,10 @@ library(devtools)
 install_github("RobLytle/qualtrics-randomizer")
 ```
 
+to load package:
+
+```
+library(qRandom)
+```
+
+Not affiliated with Qualtrics in any way, just made for convenience.
